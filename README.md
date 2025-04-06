@@ -58,3 +58,9 @@ void loop() {
 ISR(TIMER2_COMPA_vect) {
   // Rafraîchissement de la matrice de LED avec multiplexage
 }
+
+#############
+RESSOURCES UTILES POUR L'INTERUPTION
+[https://www.nongnu.org/avr-libc/user-manual/group_]
+
+[https://passionelectronique.fr/introduction-timer-arduino/]
