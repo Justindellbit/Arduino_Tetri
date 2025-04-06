@@ -1,0 +1,12 @@
+
+Avant de manipuler la matrice de LED 8x8 (1588AS), il est essentiel 
+d'identifier les broches des lignes et des colonnes. Pour cela, commencez 
+par consulter le datasheet de la matrice afin de déterminer si elle utilise
+une configuration cathode commune ou anode commune. Ensuite, vous devrez localiser
+les broches des lignes (0 à 7) et des colonnes (0 à 7), qui ne sont pas toujours disposées 
+de manière linéaire. Utilisez un schéma ou une image claire pour vous aider à cette identification. 
+Une fois que vous avez identifié une broche correspondant à une ligne ou une colonne spécifique, vous
+pouvez l'assigner à une broche sur votre Arduino pour contrôler la matrice.
+
+
+Cela devrait rendre le processus d'identification plus simple et direct.
